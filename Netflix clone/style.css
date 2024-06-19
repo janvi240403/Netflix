@@ -1,0 +1,417 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+ * {
+     padding: 0%;
+     margin: 0%;
+ }
+
+ body {
+     background-color: black;
+ }
+
+ .main {
+     background-image: url("bg.jpg");
+     height: 70vh;
+     position: relative;
+     background-position: center center;
+     background-size: max(1200px, 100vw);
+     background-repeat: none;
+ }
+
+ .main .box {
+     height: 70vh;
+     width: 100%;
+     opacity: 0.59;
+     background-color: black;
+     position: absolute;
+     top: 0%;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+     max-width: 60vw;
+     height: 62px;
+ }
+
+ nav img {
+     color: red;
+     width: 130px;
+     margin-top: 10px;
+     position: relative;
+     z-index: 9;
+ }
+
+ nav button {
+     position: relative;
+     z-index: 9;
+ }
+
+ .jaanu {
+     height: calc(100% - 107px);
+     display: flex;
+     color: white;
+     font-size: 1em;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', serif;
+     font-family: 'Ubuntu', sans-serif;
+     gap: 18px;
+     padding: 23px;
+     /* text-align: center; */
+     /* align-items: center; */
+ }
+
+ .jaanu> :nth-child(1) {
+     text-align: center;
+     font-weight: 900;
+     font-size: 48px;
+ }
+
+ .jaanu> :nth-child(2) {
+     text-align: center;
+     font-weight: 500;
+     font-size: 24px;
+
+ }
+
+ .jaanu> :nth-child(3) {
+     text-align: center;
+     font-weight: 500;
+     font-size: 20px;
+
+ }
+
+ .separation {
+     height: 7px;
+     background-color: rgb(56, 56, 56);
+ }
+
+ .btn {
+     padding: 5px 8px;
+     color: white;
+     font-weight: 400;
+     background-color: rgb(55 53 53 / 85%);
+     border: 1px solid white;
+     border-radius: 4px;
+     cursor: pointer;
+     width: 78px;
+ }
+
+
+ .btn-red {
+     background-color: red;
+     color: white;
+     padding: 7px 24px;
+     font-size: 17px;
+     font-weight: 400;
+     border-radius: 6px;
+     width: 201px;
+
+ }
+
+ .jaanu-btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+ }
+
+ .main input {
+     padding: 7px 101px 8px 14px;
+     font-size: 17px;
+     color: white;
+     font-weight: 500;
+     border-radius: 4px;
+     background-color: rgba(23, 23, 23, 0.6);
+     border: 1px solid rgba(237, 229, 229, 0.3);
+ }
+
+ .btn-red-sm {
+     background-color: red;
+     color: white;
+
+ }
+
+
+ .first {
+     display: flex;
+     justify-content: center;
+     max-width: 70vw;
+     margin: auto;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     /* flex-wrap: wrap; */
+ }
+
+ @media only screen and (max-width : 1300px) {
+     .first {
+         flex-wrap: wrap;
+     }
+
+ }
+ .tv {
+     position: relative;
+ }
+
+ .tv img {
+     width: 530px;
+     position: relative;
+     z-index: 10;
+ }
+
+ .tv video {
+     position: absolute;
+     top: 51 px;
+     right: 0;
+     width: 530px;
+ }
+
+ section.first>div {
+     display: flex;
+     flex-direction: column;
+     padding: 34px 0;
+ }
+
+ section.first>div :nth-child(1) {
+     font-size: 48px;
+     font-weight: bolder;
+ }
+
+
+ section.first>div :nth-child(2) {
+     font-size: 22px;
+
+ }
+
+ .first-third {
+
+     display: flex;
+     justify-content: center;
+     max-width: 70vw;
+     margin: auto;
+     color: white;
+     /* justify-content: center; */
+     align-items: center;
+
+ }
+
+
+ section.first-third>div {
+     display: flex;
+     flex-direction: column;
+     padding: 34px 0;
+ }
+
+ section.first-third>div :nth-child(1) {
+     font-size: 48px;
+     font-weight: bolder;
+ }
+
+
+ section.first-third>div :nth-child(2) {
+     font-size: 22px;
+
+ }
+
+ .tv-third {
+     position: relative;
+ }
+
+ .tv-third img {
+
+     width: 473px;
+     position: relative;
+     z-index: 10;
+
+ }
+
+ .tv-third video {
+     position: absolute;
+     top: 68px;
+     right: 107px;
+     width: 291px;
+
+ }
+
+ @media screen and (max-width : 1300px) {
+     nav {
+         max-width: 90vw;
+     }
+
+     .jaanu-btn1 {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .first-third {
+         flex-wrap: wrap;
+     }
+
+     .jaanu> :nth-child(1) {
+         font-size: 32px;
+     }
+
+     .jaanu> :nth-child(2) {
+         font-size: 18px;
+     }
+
+     .jaanu> :nth-child(3) {
+         font-size: 18px;
+     }
+
+     .jaanu-btn {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 16px;
+     }
+
+     footer {
+         max-width: 90vw;
+         padding: 75px 0;
+     }
+
+     .footer-item {
+         align-items: center;
+     }
+
+
+ }
+
+ .faq {
+     background-color: black;
+     color: white;
+     padding: 34px;
+ }
+
+ .faq h2 {
+     text-align: center;
+     font-size: 48px;
+     color: white;
+ }
+
+ .faqbox1:hover {
+     background-color: rgb(47, 46, 46);
+
+ }
+
+ .faqbox1 {
+     color: white;
+     transition: all 0.3s ease-out;
+     display: flex;
+     font-size: 24px;
+     max-width: 65vw;
+     margin: 24px auto;
+     background-color: grey;
+     padding: 20px;
+     justify-content: space-between;
+     cursor: pointer;
+ }
+
+ .jaanu1 {
+     display: flex;
+     color: white;
+     font-size: 1em;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', serif;
+     font-family: 'Ubuntu', sans-serif;
+     gap: 18px;
+     padding: 23px;
+ }
+
+ .jaanu1 input {
+     padding: 7px 101px 8px 14px;
+     font-size: 17px;
+     color: white;
+     font-weight: 500;
+     border-radius: 4px;
+     background-color: rgba(23, 23, 23, 0.6);
+     border: 1px solid rgba(237, 229, 229, 0.3);
+ }
+
+ .jaanu1 span {
+     font-size: 20px;
+     font-weight: 200;
+ }
+
+ .jaanu-btn1 {
+
+     /* background-color: red; */
+     color: white;
+     padding: 7px 24px;
+     font-size: 17px;
+     font-weight: 400;
+     border-radius: 6px;
+ }
+
+ footer {
+     color: white;
+     max-width: 60vw;
+     margin: auto;
+     padding: 60px;
+ }
+
+ footer .questions {
+     padding: 34px 0;
+ }
+
+
+ .footer {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     color: white;
+ }
+
+ @media screen and (max-width : 1300px) {
+     .footer {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         /* grid-area: 100%; */
+         /* position: relative; */
+     }
+
+     .rtbtn{
+        display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+ }
+
+ .footer-item {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     /* text-decoration: none; */
+ }
+
+ .ftbtn {
+     padding: 5px 8px;
+     /* position: relative; */
+     max-width: 100%;
+     color: white;
+     width: 78px;
+     font-weight: 400;
+     margin: 10px;
+     margin-right: 90px;
+     background-color: rgb(55 53 53 / 85%);
+     border: 1px solid white;
+     border-radius: 4px;
+     cursor: pointer;
+     /* left: 150px; */
+ }
+
+ 
